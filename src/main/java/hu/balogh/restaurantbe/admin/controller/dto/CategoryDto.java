@@ -1,4 +1,4 @@
-package hu.balogh.restaurantbe.controller.admin.dto;
+package hu.balogh.restaurantbe.admin.controller.dto;
 
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;

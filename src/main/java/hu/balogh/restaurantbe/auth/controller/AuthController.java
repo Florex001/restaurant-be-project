@@ -1,13 +1,13 @@
-package hu.balogh.restaurantbe.controller.auth;
+package hu.balogh.restaurantbe.auth.controller;
 
-import hu.balogh.restaurantbe.controller.auth.dto.AuthenticationRequest;
-import hu.balogh.restaurantbe.controller.auth.dto.AuthenticationResponse;
-import hu.balogh.restaurantbe.controller.auth.dto.SignupRequest;
-import hu.balogh.restaurantbe.controller.auth.dto.UserDto;
+import hu.balogh.restaurantbe.auth.controller.dto.AuthenticationRequest;
+import hu.balogh.restaurantbe.auth.controller.dto.AuthenticationResponse;
+import hu.balogh.restaurantbe.auth.controller.dto.SignupRequest;
+import hu.balogh.restaurantbe.auth.controller.dto.UserDto;
 import hu.balogh.restaurantbe.repository.UserReporitory;
 import hu.balogh.restaurantbe.repository.entity.User;
-import hu.balogh.restaurantbe.service.auth.AuthService;
-import hu.balogh.restaurantbe.service.auth.jwt.UserDetailsServiceImpl;
+import hu.balogh.restaurantbe.auth.AuthService;
+import hu.balogh.restaurantbe.auth.service.jwt.UserDetailsServiceImpl;
 import hu.balogh.restaurantbe.util.JwtUtil;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpStatus;

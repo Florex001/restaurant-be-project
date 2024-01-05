@@ -1,7 +1,7 @@
-package hu.balogh.restaurantbe.service.auth.jwt.impl;
+package hu.balogh.restaurantbe.auth.service.jwt.impl;
 
+import hu.balogh.restaurantbe.auth.service.jwt.UserService;
 import hu.balogh.restaurantbe.repository.UserReporitory;
-import hu.balogh.restaurantbe.service.auth.jwt.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,4 +1,4 @@
-package hu.balogh.restaurantbe.service.auth.jwt;
+package hu.balogh.restaurantbe.auth.service.jwt;
 
 import hu.balogh.restaurantbe.repository.UserReporitory;
 import hu.balogh.restaurantbe.repository.entity.User;

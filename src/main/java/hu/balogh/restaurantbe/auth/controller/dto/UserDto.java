@@ -1,4 +1,4 @@
-package hu.balogh.restaurantbe.controller.auth.dto;
+package hu.balogh.restaurantbe.auth.controller.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import hu.balogh.restaurantbe.enums.UserRole;

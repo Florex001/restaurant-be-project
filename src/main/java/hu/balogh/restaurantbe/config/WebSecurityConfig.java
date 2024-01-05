@@ -1,7 +1,7 @@
 package hu.balogh.restaurantbe.config;
 
 import hu.balogh.restaurantbe.enums.UserRole;
-import hu.balogh.restaurantbe.service.auth.jwt.UserService;
+import hu.balogh.restaurantbe.auth.service.jwt.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

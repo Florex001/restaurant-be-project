@@ -1,9 +1,9 @@
-package hu.balogh.restaurantbe.service.admin.impl;
+package hu.balogh.restaurantbe.admin.service.impl;
 
-import hu.balogh.restaurantbe.controller.admin.dto.CategoryDto;
+import hu.balogh.restaurantbe.admin.service.AdminService;
+import hu.balogh.restaurantbe.admin.controller.dto.CategoryDto;
 import hu.balogh.restaurantbe.repository.CategoryRepository;
 import hu.balogh.restaurantbe.repository.entity.Category;
-import hu.balogh.restaurantbe.service.admin.AdminService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

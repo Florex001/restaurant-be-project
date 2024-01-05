@@ -1,12 +1,12 @@
-package hu.balogh.restaurantbe.service.auth.Impl;
+package hu.balogh.restaurantbe.auth.service.Impl;
 
-import hu.balogh.restaurantbe.controller.auth.dto.SignupRequest;
-import hu.balogh.restaurantbe.controller.auth.dto.UserDto;
+import hu.balogh.restaurantbe.auth.controller.dto.SignupRequest;
+import hu.balogh.restaurantbe.auth.controller.dto.UserDto;
 import hu.balogh.restaurantbe.enums.UserRole;
 import hu.balogh.restaurantbe.mapper.UserMapper;
 import hu.balogh.restaurantbe.repository.UserReporitory;
 import hu.balogh.restaurantbe.repository.entity.User;
-import hu.balogh.restaurantbe.service.auth.AuthService;
+import hu.balogh.restaurantbe.auth.AuthService;
 import jakarta.annotation.PostConstruct;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

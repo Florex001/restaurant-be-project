@@ -1,7 +1,7 @@
 package hu.balogh.restaurantbe.mapper;
 
-import hu.balogh.restaurantbe.controller.auth.dto.SignupRequest;
-import hu.balogh.restaurantbe.controller.auth.dto.UserDto;
+import hu.balogh.restaurantbe.auth.controller.dto.SignupRequest;
+import hu.balogh.restaurantbe.auth.controller.dto.UserDto;
 import hu.balogh.restaurantbe.repository.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

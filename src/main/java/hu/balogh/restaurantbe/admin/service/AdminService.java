@@ -1,6 +1,6 @@
-package hu.balogh.restaurantbe.service.admin;
+package hu.balogh.restaurantbe.admin.service;
 
-import hu.balogh.restaurantbe.controller.admin.dto.CategoryDto;
+import hu.balogh.restaurantbe.admin.controller.dto.CategoryDto;
 
 import java.io.IOException;
 

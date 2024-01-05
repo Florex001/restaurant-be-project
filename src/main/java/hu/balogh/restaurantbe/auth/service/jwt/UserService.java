@@ -1,4 +1,4 @@
-package hu.balogh.restaurantbe.service.auth.jwt;
+package hu.balogh.restaurantbe.auth.service.jwt;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 

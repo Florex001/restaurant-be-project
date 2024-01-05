@@ -1,7 +1,7 @@
-package hu.balogh.restaurantbe.controller.admin;
+package hu.balogh.restaurantbe.admin.controller;
 
-import hu.balogh.restaurantbe.controller.admin.dto.CategoryDto;
-import hu.balogh.restaurantbe.service.admin.AdminService;
+import hu.balogh.restaurantbe.admin.controller.dto.CategoryDto;
+import hu.balogh.restaurantbe.admin.service.AdminService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ModelAttribute;
